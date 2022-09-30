@@ -3,60 +3,60 @@
         "id": "6334e021ef0bd5fad3a9b5d0",
         "index": 0,
         "guid": "cea5c39f-a5dd-453c-a8aa-f58ddf81c1fd",
-        "picture": "http://placehold.it/32x32",
-        "time": 20,
+        "image": "https://cdn.mos.cms.futurecdn.net/KLZwUWe4JwyyXY7pV7CpaU.jpg",
+        "age": "20-25",
         "name": "Kristina Goff",
-        "address": "10, 28",
-        "about": "Minim officia esse elit ex officia non pariatur velit laborum duis. Cillum ad velit mollit minim anim aute duis dolor exercitation et amet. Anim adipisicing irure anim cupidatat fugiat cupidatat.\r\n"
+        "time": "10s",
+        "about": "Minim officia esse elit ex officia non pariatur velit laborum duis. Cillum ad velit mollit minim anim aute duis dolor exercitation et amet..\r\n"
     },
     {
         "id": "6334e0216e81782e532dce60",
         "index": 1,
         "guid": "b44906fd-6d50-4ef2-8bcf-b2af0b32efea",
-        "picture": "http://placehold.it/32x32",
-        "time": 38,
+        "image": "https://assets.telegraphindia.com/abp/2022/Sep/1662172716_man.jpg",
+        "age": "18-25",
         "name": "Cecile Hester",
-        "address": "13, 84",
-        "about": "Aliquip amet aliquip magna sunt. Ea officia ex excepteur velit consectetur sit labore in deserunt commodo adipisicing. Nulla in esse velit id nostrud aliqua cillum dolore reprehenderit magna occaecat. Nisi voluptate consectetur ipsum deserunt pariatur nisi reprehenderit elit officia id nisi. Eu consequat adipisicing Lorem cillum non ex fugiat. In elit anim minim tempor non ex aute nisi officia labore.\r\n"
+        "time": "20s",
+        "about": "Aliquip amet aliquip magna sunt. Ea officia ex excepteur velit consectetur sit labore in deserunt commodo adipisicing.enderit elit officia id nisi. .\r\n"
     },
     {
         "id": "6334e021019696f66e217f4a",
         "index": 2,
         "guid": "fb45e892-6381-439c-a88d-606e73c2baf3",
-        "picture": "http://placehold.it/32x32",
-        "time": 23,
+        "image": "https://www.eatthis.com/wp-content/uploads/sites/4/2021/05/dumbbell-lunge.jpg?quality=82&strip=1",
+        "age": "20-30",
         "name": "Norma Parker",
-        "address": "11, 60",
-        "about": "Ut dolor do aute ad ea elit nisi dolore. Id et id magna nisi cupidatat id. Aliquip velit minim id dolor reprehenderit Lorem ad officia amet ex. Eu nostrud magna voluptate pariatur pariatur consequat nostrud.\r\n"
+        "time": "25s",
+        "about": "Ut dolor do aute ad ea elit nisi dolore. Id et id magna nisi cupidatat id. Aliquip velit minim id dolor reprehenderit Lorem ad officia amet ex. .\r\n"
     },
     {
         "id": "6334e0217b700dded6b5457c",
         "index": 3,
         "guid": "a1856f96-561f-4402-99ba-cd6f3a426b91",
-        "picture": "http://placehold.it/32x32",
-        "time": 40,
+        "image": "https://i.insider.com/5b47cce8c0229b1c008b494a?width=1500&format=jpeg&auto=webp",
+        "age": "30-35",
         "name": "Linda Norman",
-        "address": "18, 75",
-        "about": "Qui Lorem nulla consequat laborum quis sit eiusmod sint non esse ad anim deserunt. Aute commodo irure adipisicing esse proident laboris sit mollit exercitation amet id Lorem aliqua qui. Magna et labore commodo nulla ex eu.\r\n"
+        "time": "35s",
+        "about": "Qui Lorem nulla consequat laborum quis sit eiusmod sint non esse ad anim deserunt.Id et id magna nisi cupidatat id.\r\n"
     },
     {
         "id": "6334e0211787701ed0d2c484",
         "index": 4,
         "guid": "1f54fedc-3215-48b8-8a8d-61192ff68fd9",
-        "picture": "http://placehold.it/32x32",
-        "time": 20,
+        "image": "https://w0.peakpx.com/wallpaper/117/85/HD-wallpaper-sports-weightlifting-bodybuilding-gym-man-muscle.jpg",
+        "age": "30-35",
         "name": "Serena Conrad",
-        "address": "18, 64",
-        "about": "Fugiat magna officia eu amet proident ullamco proident excepteur mollit. Reprehenderit sint commodo cillum velit aute commodo. Officia aliquip dolor quis exercitation excepteur sunt ullamco ex do minim ea ea.\r\n"
+        "time": "18s",
+        "about": "Fugiat magna officia eu amet proident ullamco proident excepteur mollit. Reprehenderit sint commodo cillum velit aute commodo..\r\n"
     },
     {
         "id": "6334e0216fd6ae701721bd8f",
         "index": 5,
         "guid": "6752567f-4b3d-46c7-ac88-95d664e42659",
-        "picture": "http://placehold.it/32x32",
-        "time": 39,
+        "image": "https://d2gg9evh47fn9z.cloudfront.net/800px_COLOURBOX18690500.jpg",
+        "age": "20-25",
         "name": "Stuart Mcdaniel",
-        "address": "12, 79",
-        "about": "Dolore tempor sint ad cupidatat culpa exercitation ut sit. Aliquip aliquip do do magna laboris dolor nulla id tempor et nostrud duis laborum minim. Laborum ut cupidatat ut reprehenderit duis veniam dolor duis exercitation minim.\r\n"
+        "time": "39s",
+        "about": "Dolore tempor sint ad cupidatat culpa exercitation ut sit. Aliquip aliquip nulla id tempor et nostrud duis laborum minil.\r\n"
     }
 ]
