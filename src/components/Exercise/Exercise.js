@@ -12,7 +12,7 @@ const Exercise = () => {
     }, [])
 
     const handleAddToCart = (exercise) => {
-        console.log(exercise);
+        // console.log(exercise);
         const newCart = [...cart, exercise];
         setCart(newCart);
     }

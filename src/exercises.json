@@ -6,7 +6,7 @@
         "image": "https://cdn.mos.cms.futurecdn.net/KLZwUWe4JwyyXY7pV7CpaU.jpg",
         "age": "20-25",
         "name": "Kristina Goff",
-        "time": "10s",
+        "time": 10,
         "about": "Minim officia esse elit ex officia non pariatur velit laborum duis. Cillum ad velit mollit minim anim aute duis dolor exercitation et amet..\r\n"
     },
     {
@@ -16,7 +16,7 @@
         "image": "https://assets.telegraphindia.com/abp/2022/Sep/1662172716_man.jpg",
         "age": "18-25",
         "name": "Cecile Hester",
-        "time": "20s",
+        "time": 20,
         "about": "Aliquip amet aliquip magna sunt. Ea officia ex excepteur velit consectetur sit labore in deserunt commodo adipisicing.enderit elit officia id nisi. .\r\n"
     },
     {
@@ -26,7 +26,7 @@
         "image": "https://www.eatthis.com/wp-content/uploads/sites/4/2021/05/dumbbell-lunge.jpg?quality=82&strip=1",
         "age": "20-30",
         "name": "Norma Parker",
-        "time": "25s",
+        "time": 25,
         "about": "Ut dolor do aute ad ea elit nisi dolore. Id et id magna nisi cupidatat id. Aliquip velit minim id dolor reprehenderit Lorem ad officia amet ex. .\r\n"
     },
     {
@@ -36,7 +36,7 @@
         "image": "https://i.insider.com/5b47cce8c0229b1c008b494a?width=1500&format=jpeg&auto=webp",
         "age": "30-35",
         "name": "Linda Norman",
-        "time": "35s",
+        "time": 35,
         "about": "Qui Lorem nulla consequat laborum quis sit eiusmod sint non esse ad anim deserunt.Id et id magna nisi cupidatat id.\r\n"
     },
     {
@@ -46,7 +46,7 @@
         "image": "https://w0.peakpx.com/wallpaper/117/85/HD-wallpaper-sports-weightlifting-bodybuilding-gym-man-muscle.jpg",
         "age": "30-35",
         "name": "Serena Conrad",
-        "time": "18s",
+        "time": 18,
         "about": "Fugiat magna officia eu amet proident ullamco proident excepteur mollit. Reprehenderit sint commodo cillum velit aute commodo..\r\n"
     },
     {
@@ -56,7 +56,7 @@
         "image": "https://d2gg9evh47fn9z.cloudfront.net/800px_COLOURBOX18690500.jpg",
         "age": "20-25",
         "name": "Stuart Mcdaniel",
-        "time": "39s",
+        "time": 39,
         "about": "Dolore tempor sint ad cupidatat culpa exercitation ut sit. Aliquip aliquip do nulla id tempor et nostrud duis laborum minil.\r\n"
     }
 ]
