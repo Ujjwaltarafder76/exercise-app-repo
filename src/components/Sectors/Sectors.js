@@ -1,7 +1,8 @@
 import React from 'react';
 import './Sectors.css';
-const Sectors = (props) => {
-    const { name, image, age, time, about } = props.exercise;
+const Sectors = ({ exercise, handleAddToCart }) => {
+    // const { exercise, handleAddToCart } = props;
+    const { name, image, age, time, about, id } = exercise;
 
     return (
         <div className='exercise'>
@@ -11,8 +12,9 @@ const Sectors = (props) => {
                 <p><small>{about}</small></p>
                 <p>For Age:{age}</p>
                 <p>   Time required:{time}</p>
+                <p>{id}</p>
             </div>
-            <button onClick={() => props.handleAddToCart(props.exercise)} className='btn-cart'>
+            <button onClick={() => handleAddToCart(exercise, id)} className='btn-cart'>
                 <p>Add to list</p>
             </button>
         </div>

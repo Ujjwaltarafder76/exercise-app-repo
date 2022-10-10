@@ -13,7 +13,7 @@ const Cart = (props) => {
             <div>
                 <h3>Ujjwal Tarafder</h3>
                 <p>Khulna , Khulna</p>
-                <p>Seclected Items:{cart.length}</p>
+                {/* <p>Seclected Items:{cart.length}</p> */}
             </div>
             <div>
 
@@ -26,9 +26,7 @@ const Cart = (props) => {
                 <h5>Break Time : </h5> <span> { }sec </span>
             </div>
 
-            <div className="d-flex justify-content-center py-2">
-                <a>Activity Completed</a>
-            </div>
+
         </div>
 
     );
