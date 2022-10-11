@@ -4,8 +4,10 @@ const Cart = (props) => {
     const { cart } = props;
     // console.log(cart);
     let total = 0;
+    let quantity = 0;
     for (const exercise of cart) {
-        total = total + exercise.time;
+        quantity = quantity + exercise.quantity;
+        total = total + exercise.time * exercise.quantity;
     }
 
     return (
