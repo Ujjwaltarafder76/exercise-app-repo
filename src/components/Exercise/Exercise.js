@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 
 import Cart from '../Cart/Cart';
 import Sectors from '../Sectors/Sectors';
-import { addToDb } from '../utilities/fackdb';
+import { addToDb, getStoredCart } from '../utilities/fackdb';
 import './Exercise.css';
 const Exercise = () => {
     const [exercises, setExercises] = useState([]);
@@ -12,12 +12,19 @@ const Exercise = () => {
             .then(res => res.json())
             .then(data => setExercises(data))
     }, [])
+    useEffect(() => {
+        const storedCart = getStoredCart();
+        for (const id in storedCart) {
+            console.log(id);
+        }
+    }, [])
+
 
     const handleAddToCart = (exercise) => {
         // console.log(exercise);
         const newCart = [...cart, exercise];
         setCart(newCart);
-        addToDb(exercise);
+        addToDb(exercise.id);
     }
     return (
         <div className='exercise-container'>

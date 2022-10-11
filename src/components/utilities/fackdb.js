@@ -1,18 +1,38 @@
 
 
 
-const addToDb = (id) => {
-    const quantity = localStorage.getItem(JSON.stringify(id));
+const addToDb = id => {
+    let timerCart = {};
+
+    const storedCart = localStorage.getItem('timer-cart');
+    if (storedCart) {
+        timerCart = JSON.parse(storedCart);
+    }
+    const quantity = timerCart[id];
     if (quantity) {
-        console.log('already exists');
-        const newQuantity = parseInt(quantity) + 1;
-        localStorage.setItem((JSON.stringify(id)), newQuantity);
+        // console.log('already exists');
+        const newQuantity = quantity + 1;
+        timerCart[id] = newQuantity;
+        // localStorage.setItem(id, newQuantity);
     }
     else {
-        console.log('new itmes')
-        localStorage.setItem((JSON.stringify(id)), 1);
+        timerCart[id] = 1;
+        // console.log('new itmes')
+        // localStorage.setItem(id, 1);
     }
 
+    localStorage.setItem('timer-cart', JSON.stringify(timerCart));
 }
+const getStoredCart = () => {
+    let timerCart = {};
 
-export { addToDb }
+    const storedCart = localStorage.getItem('timer-cart');
+    if (storedCart) {
+        timerCart = JSON.parse(storedCart);
+    }
+    return timerCart;
+}
+export {
+    addToDb,
+    getStoredCart
+}

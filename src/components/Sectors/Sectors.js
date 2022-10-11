@@ -17,6 +17,7 @@ const Sectors = ({ exercise, handleAddToCart }) => {
             <button onClick={() => handleAddToCart(exercise, id)} className='btn-cart'>
                 <p>Add to list</p>
             </button>
+
         </div>
     );
 };
