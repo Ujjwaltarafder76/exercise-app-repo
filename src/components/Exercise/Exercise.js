@@ -47,6 +47,9 @@ const Exercise = () => {
         setCart(newCart);
         addToDb(selectedExercise.id);
     }
+
+
+
     return (
         <div className='exercise-container'>
             <div className="exercises-container">
@@ -55,11 +58,14 @@ const Exercise = () => {
                         key={exercise.id}
                         exercise={exercise}
                         handleAddToCart={handleAddToCart}
+
                     ></Sectors>)
                 }
             </div>
             <div className="cart-container">
-                <Cart cart={cart}></Cart>
+                <Cart cart={cart}
+
+                ></Cart>
             </div>
 
 
