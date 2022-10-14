@@ -1,7 +1,43 @@
 .cart {
     position: sticky;
     top: 0;
+    bottom: 0;
     padding-left: 15px;
     background-color: rgb(235, 230, 230);
+
+
+
+}
+
+.button {
+    background-color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 30px;
+    padding: 8px;
+    transition: 0.3s;
+}
+
+.button:hover {
+    background-color: rgb(101, 101, 252);
+    color: aliceblue;
+    transition: 0.3s;
+
+}
+
+.Exercise-Time {
+    background-color: rgb(187, 189, 189);
+    padding: 8px;
+    border-radius: 6px;
+}
+
+.btn {
+    text-decoration: none;
+    text-align: center;
+    background-color: rgb(93, 95, 161);
+    padding: 10px;
+    border-radius: 6px;
+    align-items: center;
+    position: absolute;
+
 
 }

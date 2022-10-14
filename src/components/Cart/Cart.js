@@ -1,7 +1,8 @@
 
-import { useState } from 'react';
-import { addToDb } from '../utilities/fackdb';
+import { useState, useEffect } from 'react';
+import { addToDb, time } from '../utilities/fackdb';
 import './Cart.css';
+
 // timeeerrrr
 const Cart = (props) => {
 
@@ -14,15 +15,31 @@ const Cart = (props) => {
         total = total + exercise.time * exercise.quantity;
     }
 
-    const [time, setTime] = useState(0);
+    useEffect(() => {
+        const newTime = localStorage.getItem('breakTime')
+        setTime(newTime);
 
+    }, [cart])
+    const setLocalStroge = (time) => {
+
+        return (
+            localStorage.setItem('breakTime', time)
+        )
+    }
+    const [time, setTime] = useState(0);
     const breakTime = (time) => {
-        console.log(time);
-        const newTime = [time]
+
+        // console.log(time);
+        const newTime = [time];
         setTime(newTime);
         addToDb(time);
     }
 
+
+
+    const handleAlert = () => {
+
+    }
 
 
     return (
@@ -48,14 +65,15 @@ const Cart = (props) => {
                 <div>
                     <h4>Exercise Details</h4>
                 </div>
-                <div className="d-flex gap-5 pt-3">
-                    <h5>Exercise Time :<span> {total}</span> min</h5>
+                <div>
+                    <h5 className='Exercise-Time'>Exercise Time :<span> {total}</span> min</h5>
                 </div>
-                <div className="d-flex gap-5 pt-3">
-                    <h5>Break Time :<span>{time} sec </span> </h5>
+                <div>
+                    <h5 className='Exercise-Time'>Break Time :<span>{time} sec </span> </h5>
                 </div>
                 <div>
                     {/* <a href="">Activity Completed</a> */}
+                    <a onClick={handleAlert} href="alart.html" className='btn'>Activity Completed</a>
 
                 </div>
             </div>

@@ -9,3 +9,13 @@
     gap: 45px;
 
 }
+
+.questions {
+    margin-top: 39px;
+    margin-left: 29px;
+    background-color: rgb(239, 248, 248);
+}
+
+.first {
+    background-color: lightblue;
+}

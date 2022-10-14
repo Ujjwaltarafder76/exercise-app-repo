@@ -1,0 +1,29 @@
+.bottom {
+
+  background-color: black;
+}
+
+
+.footer-menu {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+}
+
+.footer-menu a {
+  margin: 0 20px;
+  color: #ada9a9;
+  text-decoration: none;
+}
+
+.footer-menu a:hover {
+  color: white;
+}
+
+.myself {
+  text-align: center;
+  color: aliceblue;
+}
